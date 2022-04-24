@@ -30,3 +30,20 @@ h1 {
 		padding: 0 35px;
 	}
 }
+
+.back-to-top {
+	position: fixed;
+	bottom: 15px;
+	right: 15px;
+	background-color: pink;
+	padding: 15px;
+	opacity: 0.5;
+}
+.back-to-top:hover {
+	opacity: 1;
+}
+.back-to-top a {
+	text-decoration: none;
+	color: purple;
+	font-weight: 600;
+}
